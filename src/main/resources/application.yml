@@ -4,9 +4,9 @@ spring:
   application:
     name: springboot
   datasource:
-    url: jdbc:mysql://www.booleandev.xyz:3306/xizongyanshe_test?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8&serverTimezone=GMT%2B8
+    url: jdbc:mysql://115.29.193.140:3306/examquestion_bank?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8&serverTimezone=GMT%2B8
     username: root
-    password: root123456
+    password: root
     driver-classs-name: com.mysql.jdbc.Driver
   profiles:
     active: dev

@@ -38,7 +38,7 @@
 				<div class="row">
 					<div class="col-sm-5 m-b-xs">
 						<!--<a id="findColumButton" class="btn btn-outline btn-primary" onclick="findColum()"><i class="fa fa-trash-o"></i>&nbsp读取数据表</a>-->
-						<input type="text" id="findTableName" name="findTableName" class="text" maxlength="20" placeholder="请输入数据库表名" />
+						<input type="text" id="findTableName" name="findTableName" class="text" maxlength="30" placeholder="请输入数据库表名" />
 						<input type="submit" class="btn btn-outline btn-primary" value="&nbsp读取数据表" />
 						<!--<a id="refreshButton" class="btn btn-outline btn-warning" ><i class="fa fa-refresh"></i>&nbsp;导出Json</a>
 						<a id="refreshButton" class="btn btn-outline btn-warning" ><i class="fa fa-refresh"></i>&nbsp;导入Json</a>-->
@@ -48,9 +48,9 @@
 	                </div>
 	                <!--以上中部-->
 	                <div class="col-sm-6 text-right">
-						<input type="text" name="entityName" class="text" maxlength="20" placeholder="请输入Java类名(首字母大写)" />
-						<input type="text" id="tableName" name="tableName" class="text" maxlength="20" placeholder="请输入DataBase表名(大写)" />
-						<input type="text" name="memo" class="text" maxlength="20" placeholder="请输入Java类名称" />
+						<input type="text" name="entityName" class="text" maxlength="30" placeholder="请输入Java类名(首字母大写)" />
+						<input type="text" id="tableName" name="tableName" class="text" maxlength="30" placeholder="请输入DataBase表名(大写)" />
+						<input type="text" name="memo" class="text" maxlength="30" placeholder="请输入Java类名称" />
 						<a class="btn btn-success btn-outline" onclick="createCode()">
                             <i class="fa fa-qq"> </i> 生成代码
                         </a>
